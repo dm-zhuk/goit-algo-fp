@@ -24,7 +24,7 @@ def create_graph():
     return graph, nodes
 
 def dijkstra(graph, nodes, start):
-    distances = {node: float("inf") for node in nodes}
+    distances = {node: float('infinity') for node in nodes}
     distances[start] = 0
     paths = {node: [start] for node in nodes}
     
