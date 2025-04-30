@@ -127,11 +127,11 @@ heap_array = [10, 5, 3, 2, 4, 1]
 heap_root = build_heap_tree(heap_array)
 
 # DFS animate
-animate_traversal(heap_root, dfs_traversal, "Depth First Search")
+animate_traversal(heap_root, dfs_traversal, "DFS")
 
 # Reset colors for BFS
 for node in dfs_traversal(heap_root):
     node.color = "skyblue"
 
 # BFS animate
-animate_traversal(heap_root, bfs_traversal, "Breadth First Search")
+animate_traversal(heap_root, bfs_traversal, "BFS")
