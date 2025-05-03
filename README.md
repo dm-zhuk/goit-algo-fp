@@ -40,4 +40,4 @@ Based on theoretical probabilities, the expected distributions for sums when rol
 
 ### Comparison
 
-The simulated probabilities closely match the theoretical probabilities, demonstrating the effectiveness of the Monte Carlo simulation method. Minor discrepancies may arise due to the randomness inherent in simulations, but overall, the results confirm the expected distribution of sums when rolling two dice.
+The simulated probabilities closely match the theoretical probabilities, demonstrating the effectiveness of the Monte Carlo simulation method. Minor discrepancies appear due to the simulations randomness, but overall, the results confirm the expected distribution of sums when rolling two dice.
